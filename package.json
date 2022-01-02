@@ -1,0 +1,20 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
